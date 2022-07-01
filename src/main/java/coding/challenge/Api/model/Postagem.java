@@ -42,8 +42,11 @@ public class Postagem {
 	@ManyToOne
 	@JsonIgnoreProperties("postagem")
 	private Usuario usuario;
-	
-	
+
+	private t t;
+
+
+
 	public long getId() {
 		return id;
 	}
@@ -91,6 +94,12 @@ public class Postagem {
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
 	}
-	
-	
+
+	public coding.challenge.Api.model.t getT() {
+		return t;
+	}
+
+	public void setT(coding.challenge.Api.model.t t) {
+		this.t = t;
+	}
 }
