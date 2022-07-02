@@ -9,7 +9,7 @@ Este documento visa contemplar detalhes sobre a Api desenvolvida para detalhar e
 
 - Não foi implementada uma api externa para segurança, porém através do spring security foi implementado a utilização de token que dever é gerada após o logar que deve ser passada nos parâmetros para poder acessar a todas as outras rotas da aplicação.
 
-- Dentro de ApplicationProperties é necessário colocar os dados do banco de dados e também está a informação sobre a APIKEY para fazer consultas da api externa, podendo também utilizar uma própria 
+- Dentro de ApplicationProperties é necessário colocar os dados do banco de dados(Mysql) e também está a informação sobre a APIKEY para fazer consultas da api externa, podendo também utilizar uma própria 
 
 - Para rodar o projeto devemos inciar a MovieApiApplication dentro de src/java/coding.challenge.Api
 
